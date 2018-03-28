@@ -31,7 +31,7 @@ class Tabs extends React.Component {
 
   render() {
     const { props } = this;
-    const { onTabClick, extraContent, animated, prefixCls, tabBarStyle, tabContentStyle } = props;
+    const { onTabClick, extraContent, animated, prefixCls, tabBarStyle } = props;
     return (
       <RcTabs
         {...props}
