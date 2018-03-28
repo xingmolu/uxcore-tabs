@@ -47,7 +47,9 @@ class Tabs extends React.Component {
             style={tabBarStyle}
           />
         )}
-        renderTabContent={() => <TabContent animated={animated} style={tabContentStyle} />}
+        renderTabContent={
+          () => <TabContent animated={animated} animatedWithMargin />
+        }
       />
     );
   }
